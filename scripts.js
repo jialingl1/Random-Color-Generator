@@ -26,3 +26,16 @@ window.addEventListener("load", function() {
     init();
 });
 
+function init() {
+    let header = document.getElementById("header");
+    let colorText = document.getElementById("color-text");
+    let button = document.getElementById("button");
+    let colorSet = document.getElementById("color-set");
+    let colorBlocks = [];
+    let colorCodes = [];
+    for (let i=0; i<5; i++){
+        colorBlocks.push(document.getElementById("color" + i))
+        colorCodes.push(document.getElementById("code" + i));
+    }
+
+}
